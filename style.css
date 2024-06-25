@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.counter{
+    display: flex;
+    gap:0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+button{
+    transition: 0.5s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
